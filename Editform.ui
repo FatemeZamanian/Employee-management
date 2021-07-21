@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>Edit Form</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(252, 233, 79);</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
@@ -38,13 +41,34 @@
        </widget>
       </item>
       <item row="2" column="1">
-       <widget class="QLineEdit" name="efamily"/>
+       <widget class="QLineEdit" name="efamily">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="MinimumExpanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+       </widget>
       </item>
       <item row="1" column="1">
-       <widget class="QLineEdit" name="ename"/>
+       <widget class="QLineEdit" name="ename">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="MinimumExpanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+       </widget>
       </item>
       <item row="0" column="1">
-       <widget class="QLineEdit" name="ecode"/>
+       <widget class="QLineEdit" name="ecode">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="MinimumExpanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+       </widget>
       </item>
       <item row="2" column="0">
        <widget class="QLabel" name="label_3">
@@ -67,23 +91,62 @@
        </widget>
       </item>
       <item row="3" column="1">
-       <widget class="QLineEdit" name="ebirthdate"/>
+       <widget class="QLineEdit" name="ebirthdate">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="MinimumExpanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+       </widget>
       </item>
      </layout>
     </item>
     <item>
-     <widget class="QPushButton" name="e_pic">
-      <property name="text">
-       <string>picture</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="esave">
-      <property name="text">
-       <string>save</string>
-      </property>
-     </widget>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="e_pic">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="MinimumExpanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>Set picture</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="esave">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="MinimumExpanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(138, 226, 52);</string>
+        </property>
+        <property name="text">
+         <string>save</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
     </item>
    </layout>
   </widget>
